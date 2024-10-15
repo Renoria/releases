@@ -1,4 +1,4 @@
-# sonarr
+# sonarr | TV Shows
 
 
 | **Release Groups**       | **Remux Tier 01** | **Remux Tier 02** | **HD Bluray Tier 01** | **HD Bluray Tier 02** | **WEB Tier 01** | **WEB Tier 02** | **WEB Tier 03** | **WEB Scene** |
@@ -47,7 +47,7 @@
 |                          |                  |                   |                       |                       |                | XEBEC          |                |               |
 
 
-# radarr
+# radarr | Movies
 
 
 | **Release Groups**       | **Remux Tier 01** | **Remux Tier 02** | **Remux Tier 03** | **UHD Bluray Tier 01** | **UHD Bluray Tier 02** | **UHD Bluray Tier 03** | **HD Bluray Tier 01** | **HD Bluray Tier 02** | **HD Bluray Tier 03** | **WEB Tier 01** | **WEB Tier 02** | **WEB Tier 03** |
