@@ -1,68 +1,11 @@
-# radarr | Movies
+# radarr | movies
+
+| **Remux Tier 01** | **Remux Tier 02** | **Remux Tier 03** | **UHD Bluray Tier 01** | **UHD Bluray Tier 02** | **UHD Bluray Tier 03** | **HD Bluray Tier 01** | **HD Bluray Tier 02** | **HD Bluray Tier 03** | **WEB Tier 01** | **WEB Tier 02** | **WEB Tier 03** |
+|------------------|-------------------|-------------------|------------------------|------------------------|------------------------|-----------------------|-----------------------|-----------------------|----------------|----------------|----------------|
+| 3L, BiZKiT, BLURANiUM, BMF, CiNEPHiLES, FraMeSToR, PmP, WiLDCAT, ZQ | Flights, NCmt, playBD, SiCFoI, SURFINBIRD, TEPES | KRaLiMaRKo, decibeL, EPSiLON, HiFi, iFT, NTb, PTP, SumVision, TOA, TRiToN | CtrlHD, MainFrame, DON | HQMUX, HONE, SPHD, WEBDV, hallowed, PTer | BHDStudio, BMF, Chotab, CRiSC, CtrlHD, D-Z0N3, Dariush, decibeL, DON, EbP, EDPH, Geek, LolHD, NCmt, PTer, TayTO, TDD, TnP, VietHD, ZQ | BBQ, BMF, c0kE, CtrlHD, DON, EbP, Geek, LolHD, NCmt, PTer, TnP | EA, HiDt, HiSD, iFT, LoRD, NTb, QOQ, SA89, sbR | BHDStudio, hallowed, HONE, LoRD, playHD, SPHD, W4NK3R | ABBIE, AJP69, APEX, BLUTONiUM, CMRG, CRFW, CRUD, FLUX, GNOME, HONE, KiNGS, Kitsune, NOSiViD, NTb, NTG, SiC, TEPES | dB, Flights, MiU, monkee, MZABI, PHOENiX, SbR, SMURF, TOMMY, XEBEC | GNOMiSSiON, NINJACENTRAL, ROCCaT, SiGMA, SLiGNOME, SwAgLaNdEr |
+
+# sonarr | tv
 
 | **Remux Tier 01** | **Remux Tier 02** | **HD Bluray Tier 01** | **HD Bluray Tier 02** | **WEB Tier 01** | **WEB Tier 02** | **WEB Tier 03** |
 |------------------|-------------------|-----------------------|-----------------------|----------------|----------------|----------------|
-| BLURANiUM | decibeL | Chotab | SA89 | ABBiE | 3cTWeB | DRACULA |  
-| BMF | EPSiLON | CtrlHD | sbR | AJP69 | BLUTONiUM | NINJACENTRAL |  
-| FraMeSToR | HiFi | DON |  | APEX | BTW | SLiGNOME |  
-| PmP | KRaLiMaRKo | EbP |  | CasStudio | Chotab | SwAgLaNdEr |  
-|  | playBD | NTb |  | CRFW | Cinefeel | T4H |  
-|  | PTer | PTer |  | CtrlHD | CiT | ViSiON |  
-|  | SiCFoI |  |  | FLUX | CMRG |  |  
-|  | TRiToN |  |  | HONE | Coo7 |  |  
-|  |  |  |  | KiNGS | dB |  |  
-|  |  |  |  | Kitsune | DEEP |  |  
-|  |  |  |  | monkee | END |  |  
-|  |  |  |  | NOSiViD | ETHiCS |  |  
-|  |  |  |  | NTb | FC |  |  
-|  |  |  |  | NTG | Flights |  |  
-|  |  |  |  | QOQ | GNOME |  |  
-|  |  |  |  | RTN | iJP |  |  
-|  |  |  |  | SiC | iKA |  |  
-|  |  |  |  | TOMMY | iT00NZ |  |  
-|  |  |  |  | ViSUM | JETIX |  |  
-|  |  |  |  |  | KHN |  |  
-|  |  |  |  |  | KiMCHI |  |  
-|  |  |  |  |  | LAZY |  |  
-|  |  |  |  |  | MiU |  |  
-|  |  |  |  |  | MZABI |  |  
-|  |  |  |  |  | NPMS |  |  
-|  |  |  |  |  | NYH |  |  
-|  |  |  |  |  | orbitron |  |  
-|  |  |  |  |  | PHOENiX |  |  
-|  |  |  |  |  | playWEB |  |
-
-# sonarr | TV Shows
-
-
-| **Remux Tier 01** | **Remux Tier 02** | **HD Bluray Tier 01** | **HD Bluray Tier 02** | **WEB Tier 01** | **WEB Tier 02** | **WEB Tier 03** |
-|------------------|-------------------|-----------------------|-----------------------|----------------|----------------|----------------|
-| BLURANiUM        | decibeL           | Chotab                | SA89                  | ABBiE          | 3cTWeB         | DRACULA        |
-| BMF              | EPSiLON           | CtrlHD                | sbR                   | AJP69          | BLUTONiUM      | NINJACENTRAL   |
-| FraMeSToR        | HiFi              | DON                   |                       | APEX           | BTW            | SLiGNOME       |
-| PmP              | KRaLiMaRKo        | EbP                   |                       | CasStudio      | Chotab         | SwAgLaNdEr     |
-|                  | playBD            | NTb                   |                       | CRFW           | Cinefeel       | T4H            |
-|                  | PTer              | PTer                  |                       | CtrlHD         | CiT            | ViSiON         |
-|                  | SiCFoI            |                       |                       | FLUX           | CMRG           |               |
-|                  | TRiToN            |                       |                       | HONE           | Coo7           |               |
-|                  |                   |                       |                       | KiNGS          | dB             |               |
-|                  |                   |                       |                       | Kitsune        | DEEP           |               |
-|                  |                   |                       |                       | monkee         | END            |               |
-|                  |                   |                       |                       | NOSiViD        | ETHiCS         |               |
-|                  |                   |                       |                       | NTb            | FC             |               |
-|                  |                   |                       |                       | NTG            | Flights        |               |
-|                  |                   |                       |                       | QOQ            | GNOME          |               |
-|                  |                   |                       |                       | RTN            | iJP            |               |
-|                  |                   |                       |                       | SiC            | iKA            |               |
-|                  |                   |                       |                       | TOMMY          | iT00NZ         |               |
-|                  |                   |                       |                       | ViSUM          | JETIX          |               |
-|                  |                   |                       |                       |                | KHN            |               |
-|                  |                   |                       |                       |                | KiMCHI         |               |
-|                  |                   |                       |                       |                | LAZY           |               |
-|                  |                   |                       |                       |                | MiU            |               |
-|                  |                   |                       |                       |                | MZABI          |               |
-|                  |                   |                       |                       |                | NPMS           |               |
-|                  |                   |                       |                       |                | NYH            |               |
-|                  |                   |                       |                       |                | orbitron       |               |
-|                  |                   |                       |                       |                | PHOENiX        |               |
-|                  |                   |                       |                       |                | playWEB        |               |
+| BLURANiUM, BMF, FraMeSToR, PmP | decibeL, EPSiLON, HiFi, KRaLiMaRKo, playBD, PTer, SiCFoI, TRiToN | Chotab, CtrlHD, DON, EbP, NTb, PTer | SA89, sbR | ABBiE, AJP69, APEX, CasStudio, CRFW, CtrlHD, FLUX, HONE, KiNGS, Kitsune, monkee, NOSiViD, NTb, NTG, QOQ, RTN, SiC, TOMMY, ViSUM | 3cTWeB, BLUTONiUM, BTW, Chotab, Cinefeel, CiT, CMRG, Coo7, dB, DEEP, END, ETHiCS, FC, Flights, GNOME, iJP, iKA, iT00NZ, JETIX, KHN, KiMCHI, LAZY, MiU, MZABI, NPMS, NYH, orbitron, PHOENiX, playWEB | DRACULA, NINJACENTRAL, SLiGNOME, SwAgLaNdEr, T4H, ViSiON |
