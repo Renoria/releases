@@ -11,3 +11,7 @@ A key focus of TRaSH Guides is on identifying the best releases and understandin
 
 ## Anime
 [You may find the list of regexes here](Anime.md)
+
+## Releases Table  
+[You may find the human-readable table here](Table.md)  
+It’s technically human-readable, but it’s massive. It doesn’t add any new information, just organizes everything in one place.
