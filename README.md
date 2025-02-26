@@ -14,6 +14,8 @@ This repository contains **regular expressions (regexes) for the best and recomm
 ### 📺 **[TV Shows](TV.md)**  
 ### 🍥 **[Anime](Anime.md)**
 
+### ✨ **[Merged](Merged.md)** *Recommended*[^1]
+
 ---
 
 ## 📖 Release Formats  
@@ -33,3 +35,6 @@ For an in-depth breakdown, visit the [Wikipedia release formats](https://en.wiki
 For a consolidated view of all recommended release groups, [refer to the human-readable table.](Table.md)
 > [!NOTE]
 It’s *technically* human-readable, but it’s massive and doesn’t add any new information.
+
+
+[^1]: Anime is excluded.
