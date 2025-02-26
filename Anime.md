@@ -19,6 +19,14 @@
     - WEB Tier 01 – Standard **official subs**, typically from streaming services.
     - WEB Tier 01 – **Fansub encodes**, sometimes with additional compression.
     - WEB Tier 01 – **Lower-tier fansubs**, often compressed with varying quality.
+
+> [!TIP]
+> Unlike live-action content, the best release group for one anime **may not be the best for another**.
+>
+> To determine the **best release** for a specific anime, check:
+> - **[SeaDex](https://releases.moe)** – Generally more up-to-date.
+> - **[Sneedex](https://sneedex.moe)** – A great backup resource.
+
 ---
 ## ALL
 ```regex
