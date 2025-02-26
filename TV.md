@@ -1,86 +1,69 @@
-# TV Shows
+## 📺 TV Shows
 
-**All TV Shows** is the parent group that includes every Trash recommended release group, regardless of its format. It is divided into three main subsets:
+- **ALL** includes every TV recommended release group, regardless of its format and tier.
 
-- **Remux Tiers**
-- **HD Bluray Tiers**
-- **WEB Tiers**
-
-Each subset is further organized into subtiers for more detailed categorization.
-
+  - **Remux** – lossless, no re-encoding, largest file size, best quality.
+    - Remux Tier 01 - Highest-quality lossless rips from the **most trusted release groups**
+    - Remux Tier 02 - High-quality remux rips, but from groups with slightly lower consistency
+  
+  - **HD Bluray** – 1080p Bluray rip with higher bitrate than streaming, usually re-encoded.
+    - HD Bluray Tier 01 – Best 1080p Bluray encodes with **high bitrates and minimal compression**
+    - HD Bluray Tier 02 – High-quality 1080p encodes, but may use **more compression** than Tier 01.
+  
+  - **WEB** – Direct stream download, no compression artifacts, lower bitrate than Blu-ray.
+    - WEB Tier 01 – Top-tier **WEB-DLs** with **high bitrates and minimal compression**
+    - WEB Tier 02 – Good quality WEB-DLs but **slightly lower bitrates and occasional artifacts**
+    - WEB Tier 03 – Acceptable WEB-DLs, **but quality varies with noticeable compression**
+    - WEB Scene – Scene releases of WEB content, often **more compressed than Tier 01-03**
 ---
-
-## All TV Shows
-
+## ALL
   ```regex
-  \b(BLURANiUM|FraMeSToR|PmP|decibeL|EPSiLON|HiFi|KRaLiMaRKo|playBD|PTer|SiCFoI|TRiToN|Chotab|CtrlHD|DON|EbP|NTb|SA89|sbR|ABBiE|AJP69|APEX|PAXA|PEXA|XEPA|CasStudio|CRFW|FLUX|HONE|KiNGS|Kitsune|monkee|NOSiViD|NTG|QOQ|RTN|SiC|T6D|TOMMY|ViSUM|3cTWeB|BLUTONiUM|BTW|Cinefeel|CiT|CMRG|Coo7|dB|DEEP|END|ETHiCS|FC|Flights|GNOME|iJP|iKA|iT00NZ|JETIX|KHN|KiMCHI|LAZY|MiU|MZABI|NPMS|NYH|orbitron|PHOENiX|playWEB|PSiG|ROCCaT|RTFM|SbR|SDCC|SIGMA|SMURF|SPiRiT|TEPES|TVSmash|WELP|XEBEC|4KBEC|CEBEX|DRACULA|NINJACENTRAL|SLiGNOME|SwAgLaNdEr|T4H|ViSiON|DEFLATE|INFLATE)\b|-BMF
+\b(BLURANiUM|FraMeSToR|PmP|decibeL|EPSiLON|HiFi|KRaLiMaRKo|playBD|PTer|SiCFoI|TRiToN|Chotab|CtrlHD|DON|EbP|NTb|SA89|sbR|ABBiE|AJP69|APEX|PAXA|PEXA|XEPA|CasStudio|CRFW|FLUX|HONE|KiNGS|Kitsune|monkee|NOSiViD|NTG|QOQ|RTN|SiC|T6D|TOMMY|ViSUM|3cTWeB|BLUTONiUM|BTW|Cinefeel|CiT|CMRG|Coo7|dB|DEEP|END|ETHiCS|FC|Flights|GNOME|iJP|iKA|iT00NZ|JETIX|KHN|KiMCHI|LAZY|MiU|MZABI|NPMS|NYH|orbitron|PHOENiX|playWEB|PSiG|ROCCaT|RTFM|SbR|SDCC|SIGMA|SMURF|SPiRiT|TEPES|TVSmash|WELP|XEBEC|4KBEC|CEBEX|DRACULA|NINJACENTRAL|SLiGNOME|SwAgLaNdEr|T4H|ViSiON|DEFLATE|INFLATE)\b|-BMF
 ```
 ---
-
-## Remux Tiers
-
+## Remux
   ```regex
   \b(BLURANiUM|FraMeSToR|PmP|decibeL|EPSiLON|HiFi|KRaLiMaRKo|playBD|PTer|SiCFoI|TRiToN)\b|-BMF
   ```
-
-### Subtiers
-
-**Remux Tier 01**
+### **Remux Tier 01**
   ```regex
   \b(BLURANiUM|FraMeSToR|PmP)\b|-BMF
   ```
-**Remux Tier 02**
+### **Remux Tier 02**
   ```regex
   \b(decibeL|EPSiLON|HiFi|KRaLiMaRKo|playBD|PTer|SiCFoI|TRiToN)\b
   ```
-
 ---
-
-## HD Bluray Tiers
-
+## HD Bluray
   ```regex
   \b(Chotab|CtrlHD|DON|EbP|NTb|PTer|SA89|sbR)\b
   ```
-
-### Subtiers
-
-**HD Bluray Tier 01**
+### **HD Bluray Tier 01**
   ```regex
   \b(Chotab|CtrlHD|DON|EbP|NTb|PTer)\b
   ```
-**HD Bluray Tier 02**
+### **HD Bluray Tier 02**
   ```regex
   \b(SA89|sbR)\b
   ```
-
 ---
-
-## WEB Tiers
-
+## WEB
   ```regex
-  \b(ABBiE|AJP69|APEX|PAXA|PEXA|XEPA|CasStudio|CRFW|CtrlHD|FLUX|HONE|KiNGS|Kitsune|monkee|NOSiViD|NTb|NTG|QOQ|RTN|SiC|T6D|TOMMY|ViSUM|3cTWeB|BLUTONiUM|BTW|Chotab|Cinefeel|CiT|CMRG|Coo7|dB|DEEP|END|ETHiCS|FC|Flights|GNOME|iJP|iKA|iT00NZ|JETIX|KHN|KiMCHI|LAZY|MiU|MZABI|NPMS|NYH|orbitron|PHOENiX|playWEB|PSiG|ROCCaT|RTFM|SA89|SbR|SDCC|SIGMA|SMURF|SPiRiT|TEPES|TVSmash|WELP|XEBEC|4KBEC|CEBEX|DRACULA|NINJACENTRAL|SLiGNOME|SwAgLaNdEr|T4H|ViSiON|DEFLATE|INFLATE)\b
+\b(ABBiE|AJP69|APEX|PAXA|PEXA|XEPA|CasStudio|CRFW|CtrlHD|FLUX|HONE|KiNGS|Kitsune|monkee|NOSiViD|NTb|NTG|QOQ|RTN|SiC|T6D|TOMMY|ViSUM|3cTWeB|BLUTONiUM|BTW|Chotab|Cinefeel|CiT|CMRG|Coo7|dB|DEEP|END|ETHiCS|FC|Flights|GNOME|iJP|iKA|iT00NZ|JETIX|KHN|KiMCHI|LAZY|MiU|MZABI|NPMS|NYH|orbitron|PHOENiX|playWEB|PSiG|ROCCaT|RTFM|SA89|SbR|SDCC|SIGMA|SMURF|SPiRiT|TEPES|TVSmash|WELP|XEBEC|4KBEC|CEBEX|DRACULA|NINJACENTRAL|SLiGNOME|SwAgLaNdEr|T4H|ViSiON|DEFLATE|INFLATE)\b
   ```
-
-### Subtiers
-
-**WEB Tier 01**
+### **WEB Tier 01**
   ```regex
   \b(ABBiE|AJP69|APEX|PAXA|PEXA|XEPA|CasStudio|CRFW|CtrlHD|FLUX|HONE|KiNGS|Kitsune|monkee|NOSiViD|NTb|NTG|QOQ|RTN|SiC|T6D|TOMMY|ViSUM)\b
   ```
-**WEB Tier 02**
+### **WEB Tier 02**
   ```regex
-  \b(3cTWeB|BLUTONiUM|BTW|Chotab|Cinefeel|CiT|CMRG|Coo7|dB|DEEP|END|ETHiCS|FC|Flights|GNOME|iJP|iKA|iT00NZ|JETIX|KHN|KiMCHI|LAZY|MiU|MZABI|NPMS|NYH|orbitron|PHOENiX|playWEB|PSiG|ROCCaT|RTFM|SA89|SbR|SDCC|SIGMA|SMURF|SPiRiT|TEPES|TVSmash|WELP|XEBEC|4KBEC|CEBEX)\b
+\b(3cTWeB|BLUTONiUM|BTW|Chotab|Cinefeel|CiT|CMRG|Coo7|dB|DEEP|END|ETHiCS|FC|Flights|GNOME|iJP|iKA|iT00NZ|JETIX|KHN|KiMCHI|LAZY|MiU|MZABI|NPMS|NYH|orbitron|PHOENiX|playWEB|PSiG|ROCCaT|RTFM|SA89|SbR|SDCC|SIGMA|SMURF|SPiRiT|TEPES|TVSmash|WELP|XEBEC|4KBEC|CEBEX)\b
   ```
-**WEB Tier 03**
+### **WEB Tier 03**
   ```regex
   \b(DRACULA|NINJACENTRAL|SLiGNOME|SwAgLaNdEr|T4H|ViSiON)\b
   ```
-**WEB Scene**
+### **WEB Scene**
   ```regex
   \b(DEFLATE|INFLATE)\b
   ```
-
-## Explanation
-
-- Each term is wrapped in a `\b` boundary for whole-word matching, ensuring it matches the term as a standalone word.
-- The `|` operator allows matching any term at least once in a line.
