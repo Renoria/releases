@@ -1,6 +1,6 @@
 ## ✨ Merged
 
-This section merges **Movies** and **TV Shows** regexes together for a more streamlined experience, ideal with apps like [**Omni**](https://omni.stkc.win). It represents my personal recommendation and setup.
+This section merges **Movies** and **TV Shows** regexes together for a more streamlined experience, ideal with apps like [**Fusion**](https://discord.gg/UkgaxnbGpr) [**Omni**](https://omni.stkc.win). It represents my personal recommendation and setup.
 
 > [!Note]  
 > - Some groups were **bumped a tier** to remove duplicates within the same release type.  
